@@ -4982,3 +4982,148 @@ button:focus-visible {
   box-shadow: 0 0 10px rgba(184, 91, 22, 0.4);
   transform-origin: 0%;
 }
+/* =====================================
+   MOBILE FIX - HERO & PROJECTS
+===================================== */
+
+@media (max-width: 720px) {
+  /* HERO FIX */
+  .tiger-hero {
+    padding: 100px 0 60px !important;
+    min-height: auto !important;
+  }
+
+  .hero-inner {
+    width: calc(100% - 32px) !important;
+    text-align: left !important;
+    padding: 0 !important;
+  }
+
+  .hero-title {
+    font-size: clamp(48px, 18vw, 72px) !important;
+    letter-spacing: 2px !important;
+    line-height: 0.9 !important;
+    word-break: break-word !important;
+  }
+
+  .hero-subtitle-wrap {
+    justify-content: flex-start !important;
+    gap: 10px !important;
+    margin-top: 14px !important;
+  }
+
+  .hero-subtitle-wrap h2 {
+    font-size: clamp(26px, 9vw, 40px) !important;
+    letter-spacing: 2px !important;
+  }
+
+  .hero-line {
+    width: 40px !important;
+    height: 2px !important;
+  }
+
+  .hero-description {
+    max-width: 100% !important;
+    margin-top: 20px !important;
+    font-size: 14px !important;
+    line-height: 1.7 !important;
+    text-align: left !important;
+  }
+
+  .tiger-actions {
+    justify-content: flex-start !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 12px !important;
+    margin-top: 28px !important;
+  }
+
+  .tiger-btn {
+    width: 100% !important;
+    min-height: 46px !important;
+    padding: 12px 20px !important;
+    font-size: 17px !important;
+    box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.75) !important;
+  }
+
+  .hero-bottom-arrows {
+    display: none !important;
+  }
+
+  .hero-sparkle {
+    font-size: 28px !important;
+  }
+
+  /* PROJECTS FIX */
+  .tiger-projects-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+
+  .project-card,
+  .poster-wide {
+    grid-column: span 1 !important;
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .poster-eight-grid,
+  .project-collage {
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-rows: auto !important;
+  }
+
+  .poster-eight-item,
+  .collage-item {
+    aspect-ratio: auto !important;
+    min-height: 120px !important;
+  }
+
+  .projects-editorial-heading {
+    grid-template-columns: 1fr !important;
+  }
+
+  .projects-title-area,
+  .projects-summary-card {
+    min-height: auto !important;
+    padding: 24px !important;
+  }
+
+  .projects-title-area h2 {
+    font-size: clamp(34px, 11vw, 52px) !important;
+  }
+
+  .project-category-strip {
+    gap: 6px !important;
+    margin-bottom: 24px !important;
+  }
+
+  .project-category-strip span {
+    padding: 7px 10px !important;
+    font-size: 14px !important;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.35) !important;
+  }
+
+  .project-card h3 {
+    font-size: 24px !important;
+  }
+
+  .project-top {
+    margin-bottom: 14px !important;
+  }
+}
+
+/* Extra small phone fix */
+@media (max-width: 380px) {
+  .hero-title {
+    font-size: 44px !important;
+  }
+
+  .hero-subtitle-wrap h2 {
+    font-size: 24px !important;
+  }
+
+  .tiger-btn {
+    font-size: 15px !important;
+  }
+}
