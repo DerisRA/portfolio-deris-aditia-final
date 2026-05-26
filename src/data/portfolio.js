@@ -21,7 +21,7 @@ import {
 export const profile = {
   name: "Deris Rizki Aditia",
   shortName: "Deris",
-  role: "Graphic Designer & Brand Identity Designer",
+  role: "Graphic Designer & Motion Graphics",
   description:
     "I am a graphic designer focused on brand identity, logo design, visual systems, motion graphics and social media content. I help brands build modern, consistent, and recognizable visual identities.",
   location: "Indonesia",
